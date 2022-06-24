@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font: 100% Arial;
+    color: black;
+}
+
+h1 {
+    color: #1990D5;
+}
+
+#wrap {
+    display: table;
+    height: 100%;
+}
+
+#caja {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#contenido {
+    padding: 20px;
+}
+
+p,
+#pc,
+#tablet,
+#movilPaisado,
+#movilNormal {
+    font-size: 17px;
+    line-height: 150%;
+}

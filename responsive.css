@@ -1,0 +1,46 @@
+#pc,
+#tablet,
+#movilPaisado,
+#movilNormal {
+    display: none;
+}
+
+
+/* 
+PC */
+
+@media screen and (min-width: 960px) {
+    #pc {
+        display: block;
+    }
+}
+
+
+/* 
+Tablets */
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    #tablet {
+        display: block;
+    }
+}
+
+
+/* 
+Tablets */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    #movilPaisado {
+        display: block;
+    }
+}
+
+
+/* 
+Tablets */
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    #movilNormal {
+        display: block;
+    }
+}
